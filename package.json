@@ -1,0 +1,16 @@
+{
+  "name": "simulador",
+  "version": "1.0.0",
+  "description": "Simulador de precios de casas basados en su área",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Néstor Escoto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}

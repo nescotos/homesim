@@ -1,0 +1,18 @@
+<form ng-submit="sim.getResults()">
+  <div class="row">
+    <div class="col-lg-6">
+      <input type="number" required ng-model="sim.input" placeholder="Introducir Área" class="form-control"/>
+    </div>
+    <div class="col-lg-6">
+      <input type="number" required ng-model="sim.projection" placeholder="Meses a proyectar"class="form-control"/><br>
+    </div>
+  </div>
+  <div class="row col-lg-12">
+    <button type="submit" class="btn btn-info">Ver Resultados</button>
+  </div>
+</form>
+<br><br><br>
+<div class="well">
+  <div id="chart"></div>
+  <p>* precio en Dolar Estadounidense $</p>
+</div>
